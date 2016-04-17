@@ -1,0 +1,1 @@
+cmd_/home/linux/4412_lcd/lcd.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/linux/exynos4412/linux-3.14-fs4412/scripts/module-common.lds --build-id  -o /home/linux/4412_lcd/lcd.ko /home/linux/4412_lcd/lcd.o /home/linux/4412_lcd/lcd.mod.o
